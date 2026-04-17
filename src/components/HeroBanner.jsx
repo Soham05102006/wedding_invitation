@@ -38,7 +38,7 @@ const HeroBanner = () => {
           />
           <div className="absolute inset-0 border-[10px] border-[#003638]/20 pointer-events-none" />
           <div className="absolute bottom-10 left-0 right-0 text-white">
-            <h2 className="font-script text-4xl md:text-6xl text-gold drop-shadow-lg">Vaibhav & Sneha</h2>
+            <h2 className="font-script text-4xl md:text-6xl text-gold drop-shadow-lg">Sneha & Vaibhav</h2>
           </div>
         </div>
       </motion.div>

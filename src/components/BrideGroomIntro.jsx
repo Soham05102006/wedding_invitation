@@ -48,19 +48,19 @@ const BrideGroomIntro = () => {
           {/* Groom Block */}
           <div className="text-center group">
             <div className="w-56 h-56 rounded-full border-4 border-gold p-2 mb-4 overflow-hidden shadow-xl transition-transform duration-500 group-hover:scale-110">
-              <img src={vaibhav2} alt="Groom" className="w-full h-full object-cover rounded-full" />
+              <img src={sneha} alt="Groom" className="w-full h-full object-cover rounded-full" />
             </div>
-            <h4 className="font-serif text-2xl text-gold">Vaibhav</h4>
-            <p className="text-xs tracking-widest text-white/50 uppercase mt-1">THE GROOM</p>
+            <h4 className="font-serif text-2xl text-gold">Sneha</h4>
+            <p className="text-xs tracking-widest text-white/50 uppercase mt-1">THE BRIDE</p>
           </div>
 
           {/* Bride Block */}
           <div className="text-center group">
             <div className="w-56 h-56 rounded-full border-4 border-gold p-2 mb-4 overflow-hidden shadow-xl transition-transform duration-500 group-hover:scale-110">
-              <img src={sneha} alt="Bride" className="w-full h-full object-cover rounded-full" />
+              <img src={vaibhav2} alt="Bride" className="w-full h-full object-cover rounded-full" />
             </div>
-            <h4 className="font-serif text-2xl text-gold">Sneha</h4>
-            <p className="text-xs tracking-widest text-white/50 uppercase mt-1">THE BRIDE</p>
+            <h4 className="font-serif text-2xl text-gold">Vaibhav</h4>
+            <p className="text-xs tracking-widest text-white/50 uppercase mt-1">THE GROOM</p>
           </div>
         </div>
       </motion.div>
