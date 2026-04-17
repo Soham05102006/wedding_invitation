@@ -29,7 +29,7 @@ const FinalGreeting = () => {
           We can't wait to celebrate with you!
         </h2>
         <p className="font-script text-2xl md:text-3xl text-gold/80 italic">
-          Vaibhav & Sneha
+          Sneha & Vaibhav
         </p>
       </motion.div>
 
