@@ -36,7 +36,7 @@ const InvitationNames = () => {
         <motion.div variants={itemVariants} className="space-y-4">
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-white/70">With Divine Blessings of Lord Ganesha</p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xl md:text-2xl font-serif text-gold">
-            <span>Mrs. Varsha & Mr. Krishna Ghatole</span>
+            <span>Late Mrs. Varsha & Mr. Krishna Ghatole</span>
             <span className="text-white/30 hidden md:inline">|</span>
             <span>Mrs. Geeta  & Mr. Namdeorao Wanjari</span>
           </div>
