@@ -38,7 +38,7 @@ const InvitationNames = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xl md:text-2xl font-serif text-gold">
             <span>Mrs. Geeta  & Mr. Namdeorao Wanjari</span>
             <span className="text-white/30 hidden md:inline">|</span>
-            <span>Mrs. Varsha & Mr. Krishna Gahatole</span>
+            <span>Mrs. Varsha & Mr. Krishna Ghatole</span>
           </div>
         </motion.div>
 

@@ -1,17 +1,22 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Heart } from 'lucide-react';
-import mehandi1 from '../assets/mehandi1.jpeg';
-import haldi1 from '../assets/haldi1.jpeg';
-import vaibhav2 from '../assets/vaibhav2.jpeg';
-import sneha from '../assets/sneha.jpeg';
+//import mehandi1 from '../assets/mehandi1.jpeg';
+//import haldi1 from '../assets/haldi1.jpeg';
+//import vaibhav2 from '../assets/vaibhav2.jpeg';
+//import sneha from '../assets/sneha.jpeg';
+import memo1 from '../assets/memo1.jpeg';
+import memo2 from '../assets/memo2.jpeg';
+import memo3 from '../assets/memo3.jpeg';
+import memo4 from '../assets/memo4.jpeg';
+import memo5 from '../assets/memo5.jpeg';
 
 const memoryImages = [
-  mehandi1,
-  haldi1,
-  vaibhav2,
-  sneha,
-  "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800",
+  memo1,
+  memo2,
+  memo3,
+  memo4,
+  memo5,
 ];
 
 const MemoryGallery = () => {
@@ -37,7 +42,7 @@ const MemoryGallery = () => {
       <div className="relative w-full max-w-4xl aspect-[16/10] md:aspect-[21/9] rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.6)] border border-gold/30 group">
         {/* Ornate Inner Border */}
         <div className="absolute inset-4 border border-gold/10 rounded-2xl z-10 pointer-events-none group-hover:border-gold/30 transition-colors duration-700" />
-        
+
         <AnimatePresence mode="wait">
           <motion.img
             key={currentIndex}
@@ -59,9 +64,8 @@ const MemoryGallery = () => {
             <button
               key={index}
               onClick={() => setCurrentIndex(index)}
-              className={`h-1.5 transition-all duration-500 rounded-full ${
-                currentIndex === index ? 'w-8 bg-gold' : 'w-2 bg-white/30'
-              }`}
+              className={`h-1.5 transition-all duration-500 rounded-full ${currentIndex === index ? 'w-8 bg-gold' : 'w-2 bg-white/30'
+                }`}
             />
           ))}
         </div>
