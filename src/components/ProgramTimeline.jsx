@@ -3,10 +3,10 @@ import { Clock } from 'lucide-react';
 
 const ProgramTimeline = () => {
   const timelineEvents = [
-    { time: '5:00 PM', label: 'Guest Arrival' },
-    { time: '6:00 PM', label: 'Wedding Ceremony' },
-    { time: '6:45 PM', label: 'Saptapadi' },
-    { time: '7:00 PM', label: 'Dinner Reception' },
+    { time: '6:00 PM', label: 'Guest Arrival' },
+    { time: '6:45 PM', label: 'Wedding Ceremony' },
+    { time: '7:20 PM', label: 'Dinner Reception' },
+    { time: '11:00 PM', label: 'Saptapadi' },
     { time: '12:00 PM', label: 'Vidaai' },
   ];
 
