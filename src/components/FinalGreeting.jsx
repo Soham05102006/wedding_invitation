@@ -53,8 +53,8 @@ const FinalGreeting = () => {
         <div className="font-script text-xl text-gold">Vaibhav & Sneha</div>
         <p className="font-sans text-[10px] tracking-[0.2em] text-white/30 uppercase flex items-center justify-center gap-2">
           Created by <span className="text-gold/50">Soham</span>
-          <span className="w-1 h-1 bg-gold/20 rounded-full" />
-          Create your own wedding invitation
+          { /* < span className="w-1 h-1 bg-gold/20 rounded-full" /> */}
+          { /* Create your own wedding invitation */}
         </p>
       </div>
     </section>
