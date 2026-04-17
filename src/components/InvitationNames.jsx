@@ -36,9 +36,9 @@ const InvitationNames = () => {
         <motion.div variants={itemVariants} className="space-y-4">
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-white/70">With Divine Blessings of Lord Ganesha</p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xl md:text-2xl font-serif text-gold">
-            <span>Mrs. Geeta  & Mr. Namdeorao Wanjari</span>
-            <span className="text-white/30 hidden md:inline">|</span>
             <span>Mrs. Varsha & Mr. Krishna Ghatole</span>
+            <span className="text-white/30 hidden md:inline">|</span>
+            <span>Mrs. Geeta  & Mr. Namdeorao Wanjari</span>
           </div>
         </motion.div>
 
@@ -52,9 +52,9 @@ const InvitationNames = () => {
         <motion.div variants={itemVariants} className="relative py-12">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-px bg-gold/30" />
           <div className="space-y-2">
-            <h2 className="font-script text-7xl md:text-9xl text-gold">Vaibhav</h2>
-            <p className="font-serif text-4xl text-white/50">&</p>
             <h2 className="font-script text-7xl md:text-9xl text-gold">Sneha</h2>
+            <p className="font-serif text-4xl text-white/50">&</p>
+            <h2 className="font-script text-7xl md:text-9xl text-gold">Vaibhav</h2>
           </div>
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-32 h-px bg-gold/30" />
         </motion.div>

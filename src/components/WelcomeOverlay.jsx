@@ -11,23 +11,23 @@ const WelcomeOverlay = ({ onOpen }) => {
     >
       {/* Background patterns */}
       <div className="absolute inset-0 opacity-10 bg-pattern-teal pointer-events-none" />
-      
+
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}
         className="relative z-10 space-y-8"
       >
-        <img 
-          src={ganeshaMotif} 
-          alt="Ganesha" 
+        <img
+          src={ganeshaMotif}
+          alt="Ganesha"
           className="w-24 h-24 md:w-32 md:h-32 mx-auto filter drop-shadow-[0_0_15px_rgba(212,175,55,0.4)]"
         />
-        
+
         <div className="space-y-2">
           <p className="font-sans text-[10px] tracking-[0.5em] uppercase text-gold/80">Traditional Invitation</p>
           <h1 className="font-serif text-4xl md:text-6xl text-white tracking-widest leading-tight">
-            Vaibhav <span className="text-gold italic">&</span> Sneha
+            Sneha <span className="text-gold italic">&</span> Vaibhav
           </h1>
           <p className="font-sans text-xs tracking-[0.3em] uppercase text-white/50">Are getting married</p>
         </div>
